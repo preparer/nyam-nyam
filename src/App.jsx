@@ -10,8 +10,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hi</h1>
-      <h2>iurhf</h2>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/about-us" element={<AboutUs />} />
