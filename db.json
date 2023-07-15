@@ -1,0 +1,354 @@
+{ 
+    "recipes": [
+        { 
+            "id": 1,
+            "title": "Pizza",
+            "ingredients": "2 servings, 112-inch round of pizza dough, stretched (see recipe), 3 tablespoon s tomato sauce (see note), Extra-virgin olive oil, 2¾ounces fresh mozzarella, 4 to 5basil leaves, roughly torn",
+            "prepare": "Step 1: Place a pizza stone or tiles on the middle rack of your oven and turn heat to its highest setting. Let it heat for at least an hour. Step 2: Put the sauce in the center of the stretched dough and use the back of a spoon to spread it evenly across the surface, stopping approximately ½ inch from the edges. Step 3: Drizzle a little olive oil over the pie. Break the cheese into large pieces and place these gently on the sauce. Scatter basil leaves over the top. Step 4: Using a pizza peel, pick up the pie and slide it onto the heated stone or tiles in the oven. Bake until the crust is golden brown and the cheese is bubbling, approximately 4 to 8 minutes. TIP: In a food processor, whiz together whole, drained canned tomatoes, a splash of olive oil and a sprinkle of salt. Keep leftover sauce refrigerated.!", 
+            "img": "https://www.recipetineats.com/wp-content/uploads/2020/05/Pizza-Crust-without-yeast_5-SQ.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Homemade Sushi",
+            "ingredients": "1 ⅓ cups water, ⅔ cup uncooked short-grain white rice, 3 tablespoons rice vinegar, 3 tablespoons white sugar, 1 ½ teaspoons salt, 4 sheets nori seaweed sheets, ½ pound imitation crabmeat, flaked, 1 avocado - peeled, pitted, and sliced, ½ cucumber, peeled, cut into small strips, 2 tablespoons pickled ginger", 
+            "prepare": "Step 1: Bring water to a boil in a medium pot; stir in rice. Reduce heat to medium-low, cover, and simmer until rice is tender and water has been absorbed, 20 to 25 minutes. Step 2: Mix rice vinegar, sugar, and salt in a small bowl. Gently stir into cooked rice in the pot and set aside. Step 3: Lay nori sheets on a baking sheet. Step 4: Heat nori in the preheated oven until warm, 1 to 2 minutes. Step 5:           Center 1 nori sheet on a bamboo sushi mat. Use wet hands to spread a thin layer of rice on top. Arrange 1/4 of the crabmeat, avocado, cucumber, and pickled ginger over rice in a line down the center. Lift one end of the mat and roll it tightly over filling to make a complete roll. Repeat with remaining ingredients. Step 6: Use a wet, sharp knife to cut each roll into 4 to 6 slices. Tips: If you do not have a bamboo sushi mat, the easiest way to roll sushi is with a clean dish towel. ",
+            "img": "https://www.happyfoodstube.com/wp-content/uploads/2016/03/homemade-sushi-image-500x500.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Tacos",
+            "ingredients": "1 lb. 90% to 93% lean ground beef, 1 Tablespoon chili powder, 1 teaspoon ground cumin, 3/4 teaspoon salt, 1/2 teaspoon dried oregano, 1/2 teaspoon garlic powder, 1/4 teaspoon ground black pepper, 1/2 cup tomato sauce, 1/4 cup water, 12 taco shells - either hard shells or small 6-inch soft flour tortillas will work, Optional Taco Toppings: shredded cheese shredded lettuce, chopped tomatoes, diced red onion, taco sauce, sour cream, guacamole, etc.",
+            "prepare": "Break apart lean ground beef in a skillet over medium-high heat. Add chili powder, cumin, salt, oregano, garlic powder, and pepper. Cook until the beef is browned.  Add tomato sauce and water to the meat. Cook until some liquid has evaporated, but the meat is still saucy. Spoon 2 tablespoons of the taco meat into hard taco shells or small soft tortillas. Top the tacos with your favorite traditional taco toppings.",
+            "img": "https://www.thewholesomedish.com/wp-content/uploads/2019/06/The-Best-Classic-Tacos-1.jpg"
+        },
+        {
+            "id": 4,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 5,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 6,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 7,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 8,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 9,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 10,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 11,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 12,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 13,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 14,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 15,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 16,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 17,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 18,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 19,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 20,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 21,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 22,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 23,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 24,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 25,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 26,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 27,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 28,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 29,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 30,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 31,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 32,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 33,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        }, 
+        {
+            "id": 34,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 35,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 36,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 37,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 38,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 39,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 40,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 41,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 42,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 43,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 44,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 45,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 46,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 47,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 48,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 49,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        },
+        {
+            "id": 50,
+            "title": "",
+            "ingredients": "",
+            "prepare": "",
+            "img": ""
+        }
+    ]
+}
