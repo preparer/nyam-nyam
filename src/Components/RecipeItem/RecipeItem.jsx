@@ -26,7 +26,6 @@ const RecipeItem = () => {
                     <h1>{recipe?.title}</h1>
                     <p>{recipe?.ingredients}</p>
                     <p>{recipe?.prepare}</p>
-                    <a href="https://www.youtube.com/watch?v=sv3TXMSv6Lw&t=430s">Click here to see full video!</a>
                     <img src={recipe?.img} alt="image" />
                     </div>
             ))
