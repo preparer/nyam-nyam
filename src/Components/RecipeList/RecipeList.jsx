@@ -2,6 +2,7 @@ import React,{useEffect,useState} from 'react'
 import {BsSearch} from 'react-icons/bs';
 import { fetchData, getRecipes } from '../../service';
 import { Link } from 'react-router-dom';
+import s from './RecipesList.module.scss'
 
 function RecipeLists() {
     const [searchedTeam, setSearchedTeam] = useState('')
@@ -29,21 +30,25 @@ function RecipeLists() {
         <div className='heading-line'>
             <strong>Search Recipes</strong>
             <div className='input-wrapper' >
-                <input type="text" placeholder='Search' />
+                <input type="text" placeholder='Search'  />
                 <button ><BsSearch /></button>
        </div>
-       </div>
-          
-        {
+       </div>  
+          <div className={s.all}>
+ {
             data?.map(recipe => (
                 <Link to={`/recipes/${recipe.id}`} key={recipe.id}>
-                    <div>
+                    <div className={s.all}>
+                     <div className={s.card}>
                     <h1>{recipe?.title}</h1>
                     <img src={recipe?.img} alt="image" />
+                    </div>    
                     </div>
                 </Link>
             ))
         }
+          </div>
+       
     </div>
   )
 }
