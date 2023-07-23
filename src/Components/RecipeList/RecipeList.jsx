@@ -40,7 +40,7 @@ function RecipeLists() {
                 <Link to={`/recipes/${recipe.id}`} key={recipe.id}>
                     <div className={s.all}>
                      <div className={s.card}>
-                    <h1>{recipe?.title}</h1>
+                    <p className={s.title}>{recipe?.title}</p>
                     <img src={recipe?.img} alt="image" />
                     </div>    
                     </div>
