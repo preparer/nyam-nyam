@@ -32,10 +32,9 @@ function RecipeLists() {
   return (
     <div className="container">
       <div className="heading-line">
-        <strong>Search</strong>
-        <div className="input-wrapper">
+        <div className={s.input_wrapper}>
           <input
-            type="search"
+            // type="search"
             placeholder="Search"
             value={value}
             onChange={e => setValue(e.target.value)}
