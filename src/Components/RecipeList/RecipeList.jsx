@@ -2,10 +2,13 @@ import React, { useEffect, useMemo, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import s from "./RecipesList.module.scss";
+// import { useAddToFavorites } from "../context/appContext";
 
 function RecipeLists() {
   const [recipes, setRecipes] = useState([]);
   const [value, setValue] = useState("");
+
+  // const {AddToFavorites} = useAddToFavorites();
 
   useEffect(() => {
     const fetchTabData = async () => {
@@ -21,11 +24,8 @@ function RecipeLists() {
   }, []);
 
   const filteredRecipes = useMemo(() => {
-    return recipes.filter(recipe => { 
-      return recipe
-      .title
-      .toLowerCase() 
-      .includes(value.toLowerCase()); 
+    return recipes.filter((recipe) => {
+      return recipe.title.toLowerCase().includes(value.toLowerCase());
     });
   }, [recipes, value]);
 
@@ -37,7 +37,7 @@ function RecipeLists() {
             // type="search"
             placeholder="Search"
             value={value}
-            onChange={e => setValue(e.target.value)}
+            onChange={(e) => setValue(e.target.value)}
           />
         </div>
       </div>
@@ -48,7 +48,10 @@ function RecipeLists() {
               <div className={s.card}>
                 <p className={s.title}>{recipe.title}</p>
                 <img src={recipe.img} alt="image" />
+                <button >Add to Favorites</button>
+
               </div>
+
             </div>
           </Link>
         ))}
