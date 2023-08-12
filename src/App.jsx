@@ -6,6 +6,7 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Blog from "./Pages/Blog/Blog";
 import Categories from "./Pages/Categories/Categories";
 import RecipeItem from './Components/RecipeItem/RecipeItem';
+import Favorites from "./Components/Favorites/Favorites";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/categories" element={<Categories />} />
         <Route path='/recipes/:id' element={<RecipeItem />} />
+        <Route path="/favorites" element={<Favorites/>} />
       </Routes>
     </div>
   );
