@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import "./Header.module.css";
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -9,7 +8,7 @@ import {
   AiOutlineHeart,
   AiOutlineUser
 } from "react-icons/ai";
-import s from "./Header.module.css";
+import s from "./Header.module.scss";
 
 const Header = () => {
   const [header, setHeader] = useState(false);
