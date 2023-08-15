@@ -1,0 +1,22 @@
+
+
+.soup {
+    width: 100%;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -140px;
+    z-index: -1;
+    left: -300px;
+}
+
+h1 {
+    width: 350px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    font-weight: 200;
+    font-size: 70px;
+    color: #e0d1b9;
+
+    /* color: rgb(249, 249, 249); */
+}

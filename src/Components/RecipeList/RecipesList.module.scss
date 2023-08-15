@@ -9,8 +9,9 @@
   width: 300px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #a26d4e;
   border-radius: 5px;
+  background-color: #a26d4e;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 
@@ -66,6 +67,6 @@ input:focus::placeholder {
 
 .save_button {
   padding: 10px;
-  background-color: #f5f5dd;
+  // background-color: #f5f5dd;
   border: none;
 }

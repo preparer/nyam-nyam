@@ -1,15 +1,25 @@
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Inter:wght@400;500;700&family=Lato:wght@700&family=Lusitana&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Noto+Sans&family=Noto+Sans+NKo&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Raleway&family=Roboto:wght@300&family=Rokkitt:wght@300&family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Inter:wght@400;500;700&family=Lato:wght@700&family=Lusitana&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Noto+Sans&family=Noto+Sans+NKo&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Raleway&family=Roboto:wght@300&family=Rokkitt:wght@300&family=Ubuntu:wght@400;700&display=swap');
 
-  * {
-font-family: 'Inter', sans-serif;
-  }
+* {
+  color: #e0d1b9;
+  font-family: 'EB Garamond', serif;
+  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lusitana', serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans NKo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rokkitt', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
 
-  body {
-    background-color: #f5f5dd;
-  }
+body {
+  background-color: #654323;
+}
 
-
-
-
-
-  
