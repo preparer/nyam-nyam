@@ -1,32 +1,42 @@
-// import { createContext } from "react";
-// import { useState } from "react";
+import { createContext, useContext } from "react";
+import { useState } from "react";
 
-// const AddToFavorites = createContext(null);
+const AppContext = createContext(null);
 
-// export  const useAddToFavorites = () => {
-//     const context  = useAddToFavorites(AddToFavorites);
-//     if(context === undefined) {
-//          throw new Error('Appcontext must be within appContextProvider!')
-//     }
-//    return context;
-// };
+export const useAppContext = () => {
+  const context = useContext(AppContext);
 
-// const AppContextProvider = ({children}) => {
-//     const [AddToFavorites] = useState([])
+  if (context === undefined) {
+    throw new Error("Appcontext must be within appContextProvider!");
+  }
 
-    // const AddToFavorites = () => {
+  return context;
+};
 
-    // }
+const AppContextProvider = ({ children }) => {
+  const [favorites, setFavorites] = useState([]);
 
-    // const removeFromFavorites = (id) => {
+  const AddToFavorites = (recipes) => {
+    const oldFavorites = [...favorites];
 
-    // }
+    const newFavorites = oldFavorites.concat(recipes);
 
-//     return(
-//         <AddToFavorites.Provider value={{AddToFavorites}}>
-//             {children}
-//         </AddToFavorites.Provider>
-//     )
-// };
+    setFavorites(newFavorites);
+  };
 
-// export default AppContextProvider;
+  const removeFromFavorites = (id) => {
+    const oldFavorites = [...favorites];
+    const newFavorites = oldFavorites.filter((recipes) => recipes.id !== id);
+    setFavorites(newFavorites);
+  };
+
+  return (
+    <AppContext.Provider
+      value={{ favorites, AddToFavorites, removeFromFavorites }}
+    >
+      {children}
+    </AppContext.Provider>
+  );
+};
+
+export default AppContextProvider;

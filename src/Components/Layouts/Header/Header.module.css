@@ -49,6 +49,7 @@
     text-decoration: none;
     /* padding-right: 30px; */
     list-style-type: none;
+    margin-left: 10px;
   }
   
   .save {
@@ -68,6 +69,7 @@
   a {
     text-decoration: none;
     color: inherit;
+    margin-left: 50px;
   }
   .search_title {
     display: none;
