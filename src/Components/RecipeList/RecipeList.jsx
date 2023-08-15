@@ -2,13 +2,21 @@ import React, { useEffect, useMemo, useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import s from "./RecipesList.module.scss";
-// import { useAddToFavorites } from "../context/appContext";
+import { useAppContext } from "../context/appContext";
+import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
 function RecipeLists() {
   const [recipes, setRecipes] = useState([]);
   const [value, setValue] = useState("");
 
-  // const {AddToFavorites} = useAddToFavorites();
+  const { favorites, AddToFavorites, removeFromFavorites } = useAppContext();
+
+  console.log("favorites are", favorites);
+
+  const favoritesChecker = (id) => {
+    const boolean = favorites.some((recipes) => recipes.id === id);
+    return boolean;
+  };
 
   useEffect(() => {
     const fetchTabData = async () => {
@@ -43,17 +51,27 @@ function RecipeLists() {
       </div>
       <div className={s.all}>
         {filteredRecipes.map((recipe) => (
-          <Link to={`/recipes/${recipe.id}`} key={recipe.id}>
-            <div className={s.all}>
-              <div className={s.card}>
-                <p className={s.title}>{recipe.title}</p>
-                <img src={recipe.img} alt="image" />
-                <button >Add to Favorites</button>
-
-              </div>
-
-            </div>
-          </Link>
+          <div className={s.card} key={recipe.id}>
+            <Link to={`/recipes/${recipe.id}`}>
+              <img src={recipe.img} alt="image" />
+              <p className={s.title}>{recipe.title}</p>
+            </Link>
+            {favoritesChecker(recipe.id) ? (
+              <button
+                className={s.save_button}
+                onClick={() => removeFromFavorites(recipe.id)}
+              >
+                <AiFillHeart className={s.icon} size={25} />
+              </button>
+            ) : (
+              <button
+                className={s.save_button}
+                onClick={() => AddToFavorites(recipe)}
+              >
+                <AiOutlineHeart className={s.icon} size={25} />
+              </button>
+            )}
+          </div>
         ))}
       </div>
     </div>
