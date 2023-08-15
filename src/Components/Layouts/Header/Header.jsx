@@ -1,17 +1,9 @@
 import React, { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { Link } from "react-router-dom";
-// import { AppBar, Toolbar, Typography } from "@mui/material";
 import "./Header.module.css";
-// import save from "../../../assets/save-img.png";
 import avatar from "../../../assets/user-128.png";
-// import downimg from "../../../assets/down-img.png";
-import {
-  AiOutlineMenu,
-  AiOutlineClose,
-  AiFillHeart,
-  AiOutlineHeart,
-} from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineHeart,} from "react-icons/ai";
 import s from "./Header.module.css";
 
 const Header = () => {
