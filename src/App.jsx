@@ -8,6 +8,7 @@ import Categories from "./Pages/Categories/Categories";
 import RecipeItem from "./Components/RecipeItem/RecipeItem";
 import Favorites from "./Pages/Favorites/Favorites";
 import SearchPage from "./Pages/SearchFull/SearchPage";
+import User from "./Pages/User/User";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/recipes/:id" element={<RecipeItem />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/search" element={<SearchPage />} />
+        <Route path="/user" element={<User />} />
       </Routes>
     </div>
   );

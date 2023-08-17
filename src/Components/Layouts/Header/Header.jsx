@@ -47,7 +47,9 @@ const Header = () => {
             <AiFillHeart className={s.save} /> 
             </Link>
             <p className={s.save_title}>Save</p>
+            <Link to='user'>
             <AiOutlineUser className={s.avatar} />
+            </Link>
           </div>
           </div>
         </ul>
