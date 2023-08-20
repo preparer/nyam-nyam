@@ -10,6 +10,7 @@ import Favorites from "./Pages/Favorites/Favorites";
 import SearchPage from "./Pages/SearchFull/SearchPage";
 import User from "./Pages/User/User";
 
+
 function App() {
   return (
     <div className="App">
