@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Components/Layouts/Header/Header";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation  } from "react-router-dom";
 import HomePage from "./Pages/HomePage/HomePage";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Blog from "./Pages/Blog/Blog";

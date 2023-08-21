@@ -15,7 +15,13 @@ header {
   text-decoration: none;
   padding-left: 200px;
   height: 50px;
-  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.red_header{
+  background-color: #9a6d6d;
+  box-shadow: 0px 0px 15px 10px #706f6f;
+  height: 60px;
 }
 
 .avatar {
@@ -39,15 +45,23 @@ header {
   margin-left: 5px;
 }
 
+.black_logo{
+  color: #111010;
+}
+
+.black_link{
+  color: #0b0b0b;
+}
+
 ul {
   display: flex;
 }
 li {
-  color: #e0d1b9;
+  // color: #e0d1b9;
   font-size: 18px;
   line-height: 21px;
   text-decoration: none;
-  /* padding-right: 30px; */
+  padding-right: 50px; 
   list-style-type: none;
 }
 
@@ -62,7 +76,7 @@ li {
 }
 .links {
   /* color: rgb(249, 249, 249); */
-  color: #e0d1b9;
+  // color: #e0d1b9;
   text-decoration: none;
   padding-left: 60px;
 }
