@@ -1,80 +1,93 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
-import back from "../../assets/Снимок экрана 2023-08-17 200602.png";
+import { animateScroll as scroll } from "react-scroll";
+
+import back from "../../assets/orange.svg";
 import soup from '../../assets/soup1.svg'
 import pancakes from '../../assets/pancakes.svg'
 import salad from '../../assets/salad.svg'
 import s from "./Home.module.scss";
 
 function HomePage() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    setShow(true);
+  }, []);
+
   return (
     <>
-      <div>
+
         <img src={back} alt="" className={s.back} />
+        <div className={`${s.animatedComponent} ${show ? s.fadeIn : ''}`}>
         <h1>Unearth fresh epicurean delights.</h1>
       </div>
       <div>
+        <section>
         <div className="section2">
           <h2 className={s.find}>Find your best recipe!</h2>
           <Link to="/search">
             <input type="text" placeholder="Search" className={s.search_link} />
           </Link>
         </div>
+        </section>
 
-        <div className={s.section3}>
+
+      <section>
+        <div className={`${s.section3} ${s.animateSection ? s.animateIn : ''}`}>
           <h2 className={s.categories}>
             Popular Categories
             </h2>
           <div className={s.cards}>
-            <div class={s.card}>
-            <div class={s.card__title}>
+            <div className={s.card}>
+            <div className={s.card__title}>
                 Soups
                 </div>
-                <div class={s.card__subtitle}>
+                <div className={s.card__subtitle}>
                 Perfect for a cozy night in
                 </div>
-                <div class={s.card__categories}>
+                <div className={s.card__categories}>
                 Tomato, Chicken Noodle
               </div>
               
-              <div class={s.card__footer}>
-                <a href="#" class={s.card__link}>
+              <div className={s.card__footer}>
+                <a href="#" className={s.card__link}>
                   See More &gt;
                 </a>
               </div>
               <img src={soup} alt="" className={s.soup}/>
             </div>
 
-            <div class={s.card2}>
-            <div class={s.card__title}>
+            <div className={s.card2}>
+            <div className={s.card__title}>
                 Desserts
                 </div>
-                <div class={s.card__subtitle}>
+                <div className={s.card__subtitle}>
                 The sweetest things in life
                 </div>
-                <div class={s.card__categories}>
+                <div className={s.card__categories}>
                 Cake, Ice Cream, Brownies
                 </div>
-              <div class={s.card__footer}>
-                <a href="#" class={s.card__link}>
+              <div className={s.card__footer}>
+                <a href="#" className={s.card__link}>
                   See More &gt;
                 </a>
               </div>
               <img src={pancakes} alt="" className={s.pan}/>
             </div>
 
-            <div class={s.card2}>
-            <div class={s.card__title}>
+            <div className={s.card2}>
+            <div className={s.card__title}>
                 Vegeterian
                 </div>
-                <div class={s.card__subtitle}>
+                <div className={s.card__subtitle}>
                 Healthy lifestyle
                 </div>
-                <div class={s.card__categories}>
+                <div className={s.card__categories}>
                 Salads, healthy food
                 </div>
-              <div class={s.card__footer}>
-                <a href="#" class={s.card__link}>
+              <div className={s.card__footer}>
+                <a href="#" className={s.card__link}>
                   See More &gt;
                 </a>
               </div>
@@ -82,6 +95,7 @@ function HomePage() {
             </div>
           </div>
         </div>
+        </section>
       </div>
     </>
   );

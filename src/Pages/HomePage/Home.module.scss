@@ -10,7 +10,7 @@ h1 {
     width: 350px;
     position: absolute;
     top: 200px;
-    left: 200px;
+    left: 100px;
     font-weight: 200;
     font-size: 90px;
     color: #e0d1b9;
@@ -21,7 +21,7 @@ h1 {
     font-size: 60px;
     margin-bottom: 50px;
     position: absolute;
-    left: 60%;
+    left: 50%;
     top: 900px;
     background: linear-gradient(to right, #e0d1b9, #654323);
         -webkit-background-clip: text;
@@ -33,14 +33,13 @@ h1 {
     width: 400px;
     position: absolute;
     top: 940px;
-    margin-left: 200px;
+    margin-left: 100px;
     font-weight: 300;
 }
 // between the sections there should be 340px 
 
 .section3 {
-    padding-left: 200px;
-    // display: flex;
+    padding-left: 100px;
     padding-top: 1270px;
 }
 
@@ -124,19 +123,28 @@ h1 {
   }
   
   .soup {
-    left: 26%;
-    top: 1580px;
+    left: 20%;
+    top: 1560px;
     position: absolute;
   }
 
   .pan {
-    left: 54%;
-    top: 1580px;
+    left: 47%;
+    top: 1560px;
     position: absolute;
   }
 
   .salad {
-    left: 80%;
-    top: 1560px;
+    left: 74%;
+    top: 1550px;
     position: absolute;
+  }
+  .animatedComponent {
+    opacity: 0;
+    transform: rotateX('50%');
+    transition: opacity 2s ease-in-out; // You can adjust the timing here
+  }
+  
+  .fadeIn {
+    opacity: 1;
   }
