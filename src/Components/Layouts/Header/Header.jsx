@@ -1,39 +1,43 @@
-import React, { useState } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import React, { useState} from "react";
+import { Link, useLocation  } from "react-router-dom";
 import {
   AiOutlineMenu,
   AiOutlineClose,
   AiFillHeart,
   AiOutlineHeart,
+  AiOutlineSearch,
   AiOutlineUser
 } from "react-icons/ai";
 import s from "./Header.module.scss";
+import "./Header.module.scss";
+
+
 
 const Header = () => {
+  const location = useLocation();
   const [header, setHeader] = useState(false);
   return (
     <div>
-      <header className={s.header}>
-        <Link className={s.logo} to="/">préparer</Link>
+      <header className={location.pathname ==='/'? s.header : s.red_header}>
+        <Link className={location.pathname ==='/'? s.logo : s.black_logo} to="/">préparer</Link>
         <ul className={header ? [s.menu, s.active].join(" ") : [s.menu]}>
           <li className={s.li_links}>
-            <Link className={s.links} to="/">
+            <Link className={location.pathname ==='/'? s.logo : s.black_link} to="/">
               home
             </Link>
           </li>
           <li className={s.li_links}>
-            <Link className={s.links} to="/about-us">
+            <Link className={location.pathname ==='/'? s.link : s.black_link} to="/about-us">
               about us
             </Link>
           </li>
           <li className={s.li_links}>
-            <Link className={s.links} to="blog">
+            <Link className={location.pathname ==='/'? s.link : s.black_link} to="blog">
               blog
             </Link>
           </li>
           <li className={s.li_links}>
-            <Link to="categories" className={s.links}>
+            <Link to="categories" className={location.pathname ==='/'? s.link : s.black_link}>
               categories
             </Link>
           </li>
