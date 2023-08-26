@@ -21,7 +21,7 @@ const RecipeItem = () => {
     <>
       {data?.map((recipe) => (
         <div key={recipe.id}>
-          <h1>{recipe?.title}</h1>
+          <h2>{recipe?.title}</h2>
           <p>{recipe?.ingredients}</p>
           <p>{recipe?.prepare}</p>
           <img src={recipe?.img} alt="image" />

@@ -1,15 +1,15 @@
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Inter:wght@400;500;700&family=Lato:wght@700&family=Lusitana&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Noto+Sans&family=Noto+Sans+NKo&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Raleway&family=Roboto:wght@300&family=Rokkitt:wght@300&family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=IBM+Plex+Mono&family=Inter:wght@400;500;700&family=Lato:wght@700&family=Lusitana&family=Merriweather:ital@1&family=Montserrat:wght@700&family=Noto+Sans&family=Noto+Sans+NKo&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Raleway&family=Roboto:wght@300&family=Rokkitt:wght@300&family=Ubuntu:wght@400;700&display=swap');
 
-  * {
-font-family: 'Inter', sans-serif;
-  }
+* {
+  /* color: #e0d1b9; */
+  font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  body {
-    background-color: #f5f5dd;
-  }
+body {
+  /* background-color:  #D3D8DC; */
+  background-color: #e0d1b9;
+}
 
-
-
-
-
-  

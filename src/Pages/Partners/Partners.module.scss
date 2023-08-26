@@ -1,0 +1,111 @@
+.partners {
+    margin-left: 100px;
+    width: 400px;
+    margin-top: 200px;
+    color: #a47676;
+    font-size: 120px;
+    font-weight: 200;
+    line-height: 120px;
+    letter-spacing: 10px;
+}
+
+.work {
+    margin-left: 100px;
+    // margin-top: 280px;
+    font-size: 16px;
+    width: 400px;
+    color: #686565;
+}
+
+.line {
+//    color: #686565;
+    margin-left: 100px;
+    margin-top: 220px;
+}
+
+.girls {
+    position: absolute;
+    z-index: -1;
+    top: 150px;
+    left: 600px;
+}
+
+// section 1
+.section1 {
+    margin-top: 100px;
+}
+.back_1 {
+    background-color: #686565;
+    height: 700px;
+    display: flex;
+}
+.side1 {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.tasty {
+    color: rgb(255, 255, 255); 
+    font-size: 30px;
+}
+.tasty_des1 {
+    margin-top: 30px;
+    color: rgb(255, 255, 255); 
+    width: 500px;
+}
+.tasty_des2 {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    width: 500px;
+}
+.whiteline {
+    margin-top: 35px;
+}
+.tasty_img {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+// section 2
+
+.back2 {
+    height: 500px;
+    display: flex;
+}
+.side2 {
+    margin-left: 150px;
+}
+.bon_img {
+    margin-left: 100px;
+    width: 600px;
+    height: 427px;
+}
+.bon_des1 {
+    margin-top: 30px;
+    width: 400px;
+}
+.bon_des2 {
+    margin-top: 30px;
+    width: 400px;
+}
+
+
+// section 3
+
+.back_3 {
+    background-color: #a47676;
+    height: 700px;
+    display: flex;
+}
+
+.whiteline2 {
+    margin-top: 35px;
+}
+
+.jamie_img {
+    margin-top: 130px;
+    width: 500px;
+    height: 500px;
+    margin-left: 150px; 
+}

@@ -42,7 +42,6 @@ function RecipeLists() {
       <div className="heading-line">
         <div className={s.input_wrapper}>
           <input
-          type="search"
             placeholder="Search"
             value={value}
             onChange={(e) => setValue(e.target.value)}
@@ -61,14 +60,14 @@ function RecipeLists() {
                 className={s.save_button}
                 onClick={() => removeFromFavorites(recipe.id)}
               >
-                <AiFillHeart className={s.icon} size={25} />
+                <AiFillHeart className={s.icon} size={25} color="rgb(255, 255, 255)" />
               </button>
             ) : (
               <button
                 className={s.save_button}
                 onClick={() => AddToFavorites(recipe)}
               >
-                <AiOutlineHeart className={s.icon} size={25} />
+                <AiOutlineHeart className={s.icon} size={25} color="rgb(255, 255, 255)"/>
               </button>
             )}
           </div>
