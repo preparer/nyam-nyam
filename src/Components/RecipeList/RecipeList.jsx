@@ -60,14 +60,14 @@ function RecipeLists() {
                 className={s.save_button}
                 onClick={() => removeFromFavorites(recipe.id)}
               >
-                <AiFillHeart className={s.icon} size={25} />
+                <AiFillHeart className={s.icon} size={25} color="rgb(255, 255, 255)" />
               </button>
             ) : (
               <button
                 className={s.save_button}
                 onClick={() => AddToFavorites(recipe)}
               >
-                <AiOutlineHeart className={s.icon} size={25} />
+                <AiOutlineHeart className={s.icon} size={25} color="rgb(255, 255, 255)"/>
               </button>
             )}
           </div>

@@ -1,24 +1,24 @@
 import React from "react";
-import eldana from "../../assets/neww-prjct.svg";
+import aboutus from "../../assets/aboutus.svg";
 import s from "./AboutUs.module.scss";
 
 function AboutUs() {
   return (
     <div className={s.container}>
       <div>
-        <img className={s.neww_prjct} src={eldana} alt="" />
+        <img className={s.neww_prjct} src={aboutus} alt="" />
       </div>
       <section>
         <h1 className={s.about_us}>About Us</h1>
         <p className={s.title}>
-          Welcome to [préparer] – your culinary companion on a journey of
-          flavors and creativity. At [préparer], we're passionate about bringing
+          Welcome to préparer – your culinary companion on a journey of
+          flavors and creativity. At préparer, we're passionate about bringing
           the joy of cooking and sharing delicious meals to your fingertips.
         </p>
         <div>
           <h2 className={s.title_header}>Our Story:</h2>
           <p className={s.title_story}>
-            [préparer] was born out of a love for good food and the desire to
+            préparer was born out of a love for good food and the desire to
             make cooking an enjoyable experience for everyone, from aspiring
             home chefs to seasoned culinary experts. We believe that cooking is
             an art, a science, and a way to express love and care for oneself
@@ -31,14 +31,14 @@ function AboutUs() {
 
       <section className={s.section2}>
         <div>
-          <h2 className={s.text_mission}>Our Mission:</h2>
+          <h2 className={s.mission}>Our Mission:</h2>
           <p className={s.title_mission}>
             Our mission is to inspire and empower you to create extraordinary
             dishes in the comfort of your kitchen. We provide a curated
             collection of mouthwatering recipes, cooking tips, and interactive
             features to ignite your creativity and elevate your culinary skills.
             Whether you're looking to master the basics or embark on a gourmet
-            adventure, [préparer] is here to guide you every step of the way.
+            adventure, préparer is here to guide you every step of the way.
           </p>
         </div>
 

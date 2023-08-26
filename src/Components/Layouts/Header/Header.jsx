@@ -33,7 +33,7 @@ const Header = () => {
           </li>
           <li className={s.li_links}>
             <Link className={location.pathname ==='/'? s.link : s.black_link} to="blog">
-              blog
+              partners
             </Link>
           </li>
           <li className={s.li_links}>
@@ -44,15 +44,15 @@ const Header = () => {
           <div>
             <div className={s.icons}>
               <Link to='search'>
-                <AiOutlineSearch className={s.icon} />
+                <AiOutlineSearch className={location.pathname ==='/'? s.icon : s.icon_black} />
               </Link>
             <p className={s.search_title}>Search</p>
             <Link to='favorites'>
-            <AiFillHeart className={s.save} /> 
+            <AiFillHeart className={location.pathname ==='/'? s.save : s.save_black} /> 
             </Link>
             <p className={s.save_title}>Save</p>
             <Link to='user'>
-            <AiOutlineUser className={s.avatar} />
+            <AiOutlineUser className={location.pathname ==='/'? s.avatar : s.avatar_black} />
             </Link>
           </div>
           </div>
