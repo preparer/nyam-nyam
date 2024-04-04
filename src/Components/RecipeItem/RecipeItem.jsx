@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import s from "./RecipeItem.module.scss";
 
 const RecipeItem = () => {
   const router = useParams();
@@ -20,11 +21,16 @@ const RecipeItem = () => {
   return (
     <>
       {data?.map((recipe) => (
-        <div key={recipe.id}>
-          <h2>{recipe?.title}</h2>
-          <p>{recipe?.ingredients}</p>
-          <p>{recipe?.prepare}</p>
-          <img src={recipe?.img} alt="image" />
+        <div className={s.blocks} key={recipe.id}>
+          <div className="flex">
+            <h2 className={s.title}>{recipe?.title}</h2>
+            <span>Ingredients:</span>
+            <p className={s.ingredients}>{recipe?.ingredients}</p>
+            <p className={s.prepare}>{recipe?.prepare}</p>
+          </div>
+          <div>
+            <img className={s.food} src={recipe?.img} alt="image" />
+          </div>
         </div>
       ))}
     </>

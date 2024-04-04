@@ -23,9 +23,9 @@ h1 {
     position: absolute;
     left: 50%;
     top: 900px;
-    background: linear-gradient(to right, #e0d1b9, #654323);
-        -webkit-background-clip: text;
-        color: transparent;
+    // background: linear-gradient(to right, #e0d1b9, #654323);
+    //     -webkit-background-clip: text;
+        color: beige;
 }
 
 .search_link {
@@ -46,9 +46,9 @@ h1 {
 .categories {
     width: 310px;
     margin-bottom: 50px;
-    background: linear-gradient(to right, #654323, #e0d1b9 );
-    -webkit-background-clip: text;
-    color: transparent;
+    // background: linear-gradient(to right, #654323, #e0d1b9 );
+    // -webkit-background-clip: text;
+    color: beige;
     font-size: 60px;
 }
 
