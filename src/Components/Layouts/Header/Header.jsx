@@ -1,52 +1,61 @@
-import React, { useState } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
-import { Link } from "react-router-dom";
-// import { AppBar, Toolbar, Typography } from "@mui/material";
-import "./Header.module.css";
-import save from "../../../assets/save-img.png";
-import avatar from "../../../assets/user-128.png";
-// import downimg from "../../../assets/down-img.png";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import s from "./Header.module.css";
+import React, { useState} from "react";
+import { Link, useLocation  } from "react-router-dom";
+import {
+  AiOutlineMenu,
+  AiOutlineClose,
+  AiFillHeart,
+  AiOutlineHeart,
+  AiOutlineSearch,
+  AiOutlineUser
+} from "react-icons/ai";
+import s from "./Header.module.scss";
+import "./Header.module.scss";
+
+
 
 const Header = () => {
+  const location = useLocation();
   const [header, setHeader] = useState(false);
   return (
     <div>
-      <header className={s.header}>
-        <Link to="/">préparer</Link>
+      <header className={location.pathname ==='/'? s.header : s.red_header}>
+        <Link className={location.pathname ==='/'? s.logo : s.black_logo} to="/">préparer</Link>
         <ul className={header ? [s.menu, s.active].join(" ") : [s.menu]}>
           <li className={s.li_links}>
-            <Link className={s.links} to="/">
-              Home
+            <Link className={location.pathname ==='/'? s.logo : s.black_link} to="/">
+              home
             </Link>
           </li>
           <li className={s.li_links}>
-            <Link className={s.links} to="/about-us">
-              About Us
+            <Link className={location.pathname ==='/'? s.link : s.black_link} to="/about-us">
+              about us
             </Link>
           </li>
           <li className={s.li_links}>
-            <Link className={s.links} to="blog">
-              Blog
+            <Link className={location.pathname ==='/'? s.link : s.black_link} to="blog">
+              partners
             </Link>
           </li>
           <li className={s.li_links}>
-            <Link to="categories" className={s.links}>
-              Categories
+            <Link to="categories" className={location.pathname ==='/'? s.link : s.black_link}>
+              categories
             </Link>
           </li>
           <div>
             <div className={s.icons}>
-            <AiOutlineSearch className={s.icon} />
+              <Link to='search'>
+                <AiOutlineSearch className={location.pathname ==='/'? s.icon : s.icon_black} />
+              </Link>
             <p className={s.search_title}>Search</p>
-            <img className={s.save} src={save} alt="" />
+            <Link to='favorites'>
+            <AiFillHeart className={location.pathname ==='/'? s.save : s.save_black} /> 
+            </Link>
             <p className={s.save_title}>Save</p>
-            <img className={s.avatar} src={avatar} alt="" />
+            <Link to='user'>
+            <AiOutlineUser className={location.pathname ==='/'? s.avatar : s.avatar_black} />
+            </Link>
           </div>
           </div>
-          <p className={s.username}>Eva S.</p>
-          
         </ul>
         <div onClick={() => setHeader(!header)} className={s.mobile_btn}>
           {header ? (

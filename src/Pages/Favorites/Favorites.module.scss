@@ -9,9 +9,9 @@
   width: 300px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #a47676;;
+  border: 1px solid #a26d4e;
+  background-color: #a26d4e;
   border-radius: 5px;
-  background-color: #a47676;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 
@@ -28,14 +28,13 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.title {
-  color: rgb(255, 255, 255);
+p {
   font-size: 18px;
   margin-top: 10px;
 }
 
 .title {
-  //  margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .input_wrapper {
@@ -46,13 +45,11 @@
 }
 
 input {
-  background-color: rgb(255, 255, 255);
   width: 300px;
   height: 50px;
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border: white;
-  margin-bottom: 30px;
 }
 
 input::placeholder {
@@ -70,6 +67,6 @@ input:focus::placeholder {
 
 .save_button {
   padding: 10px;
-  background-color: #a47676;
+  background-color: #a26d4e;
   border: none;
 }
